@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/venkatesh/programm/c/strings'
+let g:netrw_dirhist_0='/home/venkatesh/programm/c'
+let g:netrw_dirhist_9='/home/venkatesh/programm/c/structure'
+let g:netrw_dirhist_8='/home/venkatesh/programm/c'
+let g:netrw_dirhist_7='/home/venkatesh/programm/c/strings'
+let g:netrw_dirhist_6='/home/venkatesh/programm/python'
+let g:netrw_dirhist_5='/home/venkatesh/programm/c/strings'
+let g:netrw_dirhist_4='/home/venkatesh/.vim/bundle/Apprentice'
+let g:netrw_dirhist_3='/home/venkatesh/projects/learning_log/learning_log'
+let g:netrw_dirhist_2='/home/venkatesh/Documents'
