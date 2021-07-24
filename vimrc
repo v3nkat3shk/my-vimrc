@@ -42,7 +42,7 @@ set t_Co=256
 set background=dark
 set completeopt-=preview
 set completeopt+=menu,longest,menuone,noinsert
-colorscheme gruvbox-material
+colorscheme one
 " Settings for lightline
 "set laststatus=2
 "set noshowmode
@@ -53,7 +53,7 @@ set guioptions-=L
 set guioptions-=r
 set noeb vb t_vb=   " disable error sound
 set vb t_vb=        " disable widow flash on error
-set guifont=Recursive\ 11
+set guifont=cousine\ 12
 
 "hi TabLineFill guifg=DarkGrey guibg=Black
 
@@ -87,13 +87,19 @@ let g:ale_linters = {
   \ 'python': ['pyls'],
   \ 'javascript': ['tsserver'],
   \ 'css': ['css-languageserver'],
+  \ 'c': ['clang'],
+  \ 'cpp': ['clang'],
+  \ 'rust': ['rustc'],
   \}
 
 let g:ale_fixers = {
   \ '*': ['remove_trailing_lines', 'trim_whitespace'],
   \ 'python': ['autopep8'],
   \ 'javascript': ['eslint', 'prettier'],
+  \ 'c': ['clang-format'],
+  \ 'cpp': ['clang-format'],
   \ 'go': ['gofmt'],
+  \ 'rust': ['rustfmt'],
   \ 'css':['prettier'],
   \}
 let g:ale_fix_on_save = 1         " Formats code when save
